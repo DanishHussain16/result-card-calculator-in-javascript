@@ -1,0 +1,79 @@
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.8rem;
+}
+#header{
+    background-color: rgb(170, 31, 31);
+    color: #fff;
+    font-weight: bolder;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5em;
+}
+#submit-form{
+    background-color: #f9f9f9;
+    padding: 1.5em;
+}
+#submit-form input{
+    height: 30px;
+    width: 30%;
+    margin-bottom: 1.5em;
+    margin-top: 0.7em;
+    font-size: 1.8rem;
+    outline-color: blue;
+    padding: 0.5em;
+}
+
+#submit-form button{
+    width: 30%;
+    height: 40px;
+    font-size: 1.8rem;
+    margin-top: 1em;
+    background-color: rgb(23, 117, 23);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+#submit-form button:hover{
+    background-color: rgb(170, 31, 31);
+}
+#last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(41, 41, 150);
+    height: 40px;
+    color: #fff;
+}
+table{
+    width: 90%;
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-bottom: 2em;
+    
+
+    
+}
+th{
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 1em;
+    text-align: start;
+}
+table ,th,td{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 0.5em;
+}
+#fle{
+          display: flex;
+}
